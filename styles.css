@@ -6,6 +6,14 @@ body{
     and text light */
     background-color: darkgrey;
     color: white; 
+    text-align: center;
+}
+.resume{
+    /* Q2 -2 use only 60% of the page width and center the div within the page. */
+    text-align: center;
+    /*Ths is keeping it in the center while only using 60% of total page */
+    margin-right: 20%;
+    margin-left: 20%;
 }
 #profile{
     /* Q2-4 change the size of the image*/
