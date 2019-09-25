@@ -1,8 +1,14 @@
 body{
     background-color: #efdbff
 }
+.candidate{
+    /* Q2 - 1 change background color of element to dark
+    and text light */
+    background-color: darkgrey;
+    color: white; 
+}
 #profile{
-    /* Q2-1 */
+    /* Q2-4 change the size of the image*/
     width: 200px;
     height: 200px;
 }
