@@ -1,37 +1,47 @@
 body{
-    background-color: #efdbff
+    background-color: lightskyblue;
 }
 .candidate{
     /* Q2 - 1 change background color of element to dark
     and text light */
-    background-color: darkgrey;
+    background-color: blue;
     color: white; 
     text-align: center;
 }
-.resume{
-    /* Q2 -2 center the div within the page. */
-    text-align: center;
-    /*Ths is keeping it in the center while only using 60% of total page */   
+.goals{
+    text-align: center;   
+}
+.wk_history{
+     /*(Q2-5) Style the work history entries from 
+    Q1-5 so that they all end up consistent in their appearance. Change at least 5 properties*/
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #profile{
     /* Q2-4 change the size of the image*/
     width: 200px;
     height: 200px;
 }
-.wk_history{
-     /* Q2 -2 only use 60%. */
-    width: 30%;
-    /* Q2 -3 Make divs function as columns. */
-    display: inline-block;
-    /*Style the work history entries from Q1-5 so that they all 
-    end up consistent in their appearance. Change at least 5 properties.
-    -Maybe give them a border, size, type, color
-    */ 
+div{
+    /*Q2-3 Make the divs in Q1-3 such that they function as column. 
+    Q2-2 Limit the content in the div element fom Q1-2 to  
+    use only 60% of the page width and center the div within the page.*/
+    margin-left: 20%;
+    margin-right: 20%;
 }
-.goals{
-     /* Q2 -2 only use 60%. */
-    width: 30%;
-    /* Q2 -3 Make divs function as columns. */
-    display: inline-block;
+h3{
+    /*(Q2-5) Style the work history entries from 
+    Q1-5 so that they all end up consistent in their appearance. Change at least 5 properties*/
+    border-bottom: 5px solid white;
+}
+h4{
+    /*(Q2-5) Style the work history entries from 
+    Q1-5 so that they all end up consistent in their appearance. Change at least 5 properties*/
+    border-left: 5px solid white;
+}
+ul{
+    /*(Q2-5) Style the work history entries from 
+    Q1-5 so that they all end up consistent in their appearance. Change at least 5 properties*/
+    box-shadow: 5px 5px white;
 }
 
