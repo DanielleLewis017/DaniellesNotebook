@@ -1,47 +1,46 @@
-body{
-    background-color: lightskyblue;
+body {
+  background-color: lightskyblue;
 }
-.candidate{
-    /* Q2 - 1 change background color of element to dark
+.candidate {
+  /* Q2 - 1 change background color of element to dark
     and text light */
-    background-color: blue;
-    color: white; 
-    text-align: center;
+  background-color: blue;
+  color: white;
+  text-align: center;
 }
-.goals{
-    text-align: center;   
+.goals {
+  text-align: center;
 }
-.wk_history{
-     /*(Q2-5) Style the work history entries from 
+.wk_history {
+  /*(Q2-5) Style the work history entries from 
     Q1-5 so that they all end up consistent in their appearance. Change at least 5 properties*/
-    text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#profile{
-    /* Q2-4 change the size of the image*/
-    width: 200px;
-    height: 200px;
+#profile {
+  /* Q2-4 change the size of the image*/
+  width: 200px;
+  height: 200px;
 }
-div{
-    /*Q2-3 Make the divs in Q1-3 such that they function as column. 
+div {
+  /*Q2-3 Make the divs in Q1-3 such that they function as column. 
     Q2-2 Limit the content in the div element fom Q1-2 to  
     use only 60% of the page width and center the div within the page.*/
-    margin-left: 20%;
-    margin-right: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
-h3{
-    /*(Q2-5) Style the work history entries from 
+h3 {
+  /*(Q2-5) Style the work history entries from 
     Q1-5 so that they all end up consistent in their appearance. Change at least 5 properties*/
-    border-bottom: 5px solid white;
+  border-bottom: 5px solid white;
 }
-h4{
-    /*(Q2-5) Style the work history entries from 
+h4 {
+  /*(Q2-5) Style the work history entries from 
     Q1-5 so that they all end up consistent in their appearance. Change at least 5 properties*/
-    border-left: 5px solid white;
+  border-left: 5px solid white;
 }
-ul{
-    /*(Q2-5) Style the work history entries from 
+ul {
+  /*(Q2-5) Style the work history entries from 
     Q1-5 so that they all end up consistent in their appearance. Change at least 5 properties*/
-    box-shadow: 5px 5px white;
+  box-shadow: 5px 5px white;
 }
-
